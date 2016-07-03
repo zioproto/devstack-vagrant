@@ -14,6 +14,6 @@ case $(id -u) in
          git clone -b liberty_bug_1598525 https://github.com/zioproto/devstack
          cd devstack/
          cp samples/local.conf .
-         ./stack.sh
+         #./stack.sh
          ;;
 esac
