@@ -11,7 +11,7 @@ case $(id -u) in
     *) 
          echo then: running as vagrant user
          echo doing the vagrant user tasks
-         git clone https://git.openstack.org/openstack-dev/devstack
+         git clone -b stable/liberty https://git.openstack.org/openstack-dev/devstack
          cd devstack/
          cp samples/local.conf .
          ./stack.sh
