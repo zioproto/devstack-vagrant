@@ -5,7 +5,7 @@ case $(id -u) in
          echo first: running as root
          echo doing the root tasks...
          apt-get update
-         apt-get install -y git htop screen
+         apt-get install -y git htop screen rng-tools
          sudo -u vagrant -i $0  # script calling itself as the vagrant user
          ;;
     *) 
