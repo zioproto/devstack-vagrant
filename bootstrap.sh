@@ -13,7 +13,7 @@ case $(id -u) in
          echo doing the vagrant user tasks
          git clone -b liberty_bug_1598525 https://github.com/zioproto/devstack
          cd devstack/
-         cp samples/local.conf .
+         cp /vagrant/local.conf .
          #./stack.sh
          ;;
 esac
