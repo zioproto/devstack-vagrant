@@ -1,4 +1,4 @@
-export OS_AUTH_URL=http://10.0.2.15:5000/v2.0
+export OS_AUTH_URL=http://127.0.0.1:5000/v2.0
 
 # With the addition of Keystone we have standardized on the term **tenant**
 # as the entity that owns the resources.
